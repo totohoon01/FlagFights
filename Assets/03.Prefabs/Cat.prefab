@@ -1040,7 +1040,7 @@ GameObject:
   - component: {fileID: 5386318337749128080}
   m_Layer: 0
   m_Name: Cat
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1123,8 +1123,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
-  rotateSpeed: 30
+  rotateSpeed: 60
   jumpPower: 6
+  isGameEnd: 0
+  isWin: 0
 --- !u!1 &5386318337749030198
 GameObject:
   m_ObjectHideFlags: 0
