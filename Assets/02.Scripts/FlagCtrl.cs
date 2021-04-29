@@ -22,7 +22,8 @@ public class FlagCtrl : MonoBehaviour
         if (coll.CompareTag("Player"))
         {
             transform.SetParent(coll.transform);
-
+            transform.position = transform.parent.position;
+            transform.rotation = transform.parent.rotation;
             foreach (var mesh in GetComponentsInChildren<MeshRenderer>())
             {
                 mesh.enabled = false;
