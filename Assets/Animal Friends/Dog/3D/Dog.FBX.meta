@@ -1,0 +1,3927 @@
+fileFormatVersion: 2
+guid: d12270b9dc5d7b440b055c6538c3629d
+ModelImporter:
+  serializedVersion: 21100
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bip01
+  - first:
+      1: 100002
+    second: Bip01 Head
+  - first:
+      1: 100004
+    second: Bip01 Jaw
+  - first:
+      1: 100006
+    second: Bip01 L Calf
+  - first:
+      1: 100008
+    second: Bip01 L Clavicle
+  - first:
+      1: 100010
+    second: Bip01 L Ear 1
+  - first:
+      1: 100012
+    second: Bip01 L Ear 2
+  - first:
+      1: 100014
+    second: Bip01 L Ear 3
+  - first:
+      1: 100016
+    second: Bip01 L Eyebrow
+  - first:
+      1: 100018
+    second: Bip01 L Finger0
+  - first:
+      1: 100020
+    second: Bip01 L Finger1
+  - first:
+      1: 100022
+    second: Bip01 L Foot
+  - first:
+      1: 100024
+    second: Bip01 L Forearm
+  - first:
+      1: 100026
+    second: Bip01 L Hand
+  - first:
+      1: 100028
+    second: Bip01 L LowerLip
+  - first:
+      1: 100030
+    second: Bip01 L Thigh
+  - first:
+      1: 100032
+    second: Bip01 L Toe0
+  - first:
+      1: 100034
+    second: Bip01 L UpperArm
+  - first:
+      1: 100036
+    second: Bip01 L UpperLip
+  - first:
+      1: 100038
+    second: Bip01 Neck
+  - first:
+      1: 100040
+    second: Bip01 Nose
+  - first:
+      1: 100042
+    second: Bip01 Pelvis
+  - first:
+      1: 100044
+    second: Bip01 R Calf
+  - first:
+      1: 100046
+    second: Bip01 R Clavicle
+  - first:
+      1: 100048
+    second: Bip01 R Ear 1
+  - first:
+      1: 100050
+    second: Bip01 R Ear 2
+  - first:
+      1: 100052
+    second: Bip01 R Ear 3
+  - first:
+      1: 100054
+    second: Bip01 R Eyebrow
+  - first:
+      1: 100056
+    second: Bip01 R Finger0
+  - first:
+      1: 100058
+    second: Bip01 R Finger1
+  - first:
+      1: 100060
+    second: Bip01 R Foot
+  - first:
+      1: 100062
+    second: Bip01 R Forearm
+  - first:
+      1: 100064
+    second: Bip01 R Hand
+  - first:
+      1: 100066
+    second: Bip01 R LowerLip
+  - first:
+      1: 100068
+    second: Bip01 R Thigh
+  - first:
+      1: 100070
+    second: Bip01 R Toe0
+  - first:
+      1: 100072
+    second: Bip01 R UpperArm
+  - first:
+      1: 100074
+    second: Bip01 R UpperLip
+  - first:
+      1: 100076
+    second: Bip01 Spine
+  - first:
+      1: 100078
+    second: Bip01 Spine1
+  - first:
+      1: 100080
+    second: Bip01 Tail
+  - first:
+      1: 100082
+    second: Bip01 Tail1
+  - first:
+      1: 100084
+    second: Bip01 Tail2
+  - first:
+      1: 100086
+    second: Bip01 Tongue 1
+  - first:
+      1: 100088
+    second: Bip01 Tongue 2
+  - first:
+      1: 100090
+    second: Bip01 Tongue 3
+  - first:
+      1: 100092
+    second: //RootNode
+  - first:
+      1: 100094
+    second: Bip01 L Lip
+  - first:
+      1: 100096
+    second: Bip01 L LowerEyelid
+  - first:
+      1: 100098
+    second: Bip01 L UpperEyelid
+  - first:
+      1: 100100
+    second: Bip01 R Lip
+  - first:
+      1: 100102
+    second: Bip01 R LowerEyelid
+  - first:
+      1: 100104
+    second: Bip01 R UpperEyelid
+  - first:
+      1: 100106
+    second: Bip01 UpperLip
+  - first:
+      1: 100108
+    second: Dog
+  - first:
+      1: 100110
+    second: Eye Left
+  - first:
+      1: 100112
+    second: Eye Right
+  - first:
+      1: 100114
+    second: Teeth Lower
+  - first:
+      1: 100116
+    second: Teeth Upper
+  - first:
+      1: 100118
+    second: Tongue
+  - first:
+      1: 100120
+    second: Bip01 R Upperlip
+  - first:
+      1: 100122
+    second: Dog 1
+  - first:
+      1: 100124
+    second: Dog Head
+  - first:
+      1: 100126
+    second: Dog Jaw
+  - first:
+      1: 100128
+    second: Dog L Calf
+  - first:
+      1: 100130
+    second: Dog L Clavicle
+  - first:
+      1: 100132
+    second: Dog L Eyebrow
+  - first:
+      1: 100134
+    second: Dog L Finger0
+  - first:
+      1: 100136
+    second: Dog L Finger1
+  - first:
+      1: 100138
+    second: Dog L Foot
+  - first:
+      1: 100140
+    second: Dog L Forearm
+  - first:
+      1: 100142
+    second: Dog L Hand
+  - first:
+      1: 100144
+    second: Dog L Lip
+  - first:
+      1: 100146
+    second: Dog L LowerEyelid
+  - first:
+      1: 100148
+    second: Dog L LowerLip
+  - first:
+      1: 100150
+    second: Dog L Thigh
+  - first:
+      1: 100152
+    second: Dog L Toe0
+  - first:
+      1: 100154
+    second: Dog L UpperArm
+  - first:
+      1: 100156
+    second: Dog L UpperEyelid
+  - first:
+      1: 100158
+    second: Dog L UpperLip
+  - first:
+      1: 100160
+    second: Dog Neck
+  - first:
+      1: 100162
+    second: Dog Nose
+  - first:
+      1: 100164
+    second: Dog Pelvis
+  - first:
+      1: 100166
+    second: Dog Ponytail1
+  - first:
+      1: 100168
+    second: Dog Ponytail11
+  - first:
+      1: 100170
+    second: Dog Ponytail12
+  - first:
+      1: 100172
+    second: Dog Ponytail2
+  - first:
+      1: 100174
+    second: Dog Ponytail21
+  - first:
+      1: 100176
+    second: Dog Ponytail22
+  - first:
+      1: 100178
+    second: Dog R Calf
+  - first:
+      1: 100180
+    second: Dog R Clavicle
+  - first:
+      1: 100182
+    second: Dog R Eyebrow
+  - first:
+      1: 100184
+    second: Dog R Finger0
+  - first:
+      1: 100186
+    second: Dog R Finger1
+  - first:
+      1: 100188
+    second: Dog R Foot
+  - first:
+      1: 100190
+    second: Dog R Forearm
+  - first:
+      1: 100192
+    second: Dog R Hand
+  - first:
+      1: 100194
+    second: Dog R Lip
+  - first:
+      1: 100196
+    second: Dog R LowerEyelid
+  - first:
+      1: 100198
+    second: Dog R LowerLip
+  - first:
+      1: 100200
+    second: Dog R Thigh
+  - first:
+      1: 100202
+    second: Dog R Toe0
+  - first:
+      1: 100204
+    second: Dog R UpperArm
+  - first:
+      1: 100206
+    second: Dog R UpperEyelid
+  - first:
+      1: 100208
+    second: Dog R Upperlip
+  - first:
+      1: 100210
+    second: Dog Spine
+  - first:
+      1: 100212
+    second: Dog Spine1
+  - first:
+      1: 100214
+    second: Dog Tail
+  - first:
+      1: 100216
+    second: Dog Tail1
+  - first:
+      1: 100218
+    second: Dog Tail2
+  - first:
+      1: 100220
+    second: Dog Tongue
+  - first:
+      1: 100222
+    second: Dog Tongue02
+  - first:
+      1: 100224
+    second: Dog Tongue03
+  - first:
+      1: 100226
+    second: Dog UpperLip
+  - first:
+      1: 100228
+    second: Dog Mesh
+  - first:
+      4: 400000
+    second: Bip01
+  - first:
+      4: 400002
+    second: Bip01 Head
+  - first:
+      4: 400004
+    second: Bip01 Jaw
+  - first:
+      4: 400006
+    second: Bip01 L Calf
+  - first:
+      4: 400008
+    second: Bip01 L Clavicle
+  - first:
+      4: 400010
+    second: Bip01 L Ear 1
+  - first:
+      4: 400012
+    second: Bip01 L Ear 2
+  - first:
+      4: 400014
+    second: Bip01 L Ear 3
+  - first:
+      4: 400016
+    second: Bip01 L Eyebrow
+  - first:
+      4: 400018
+    second: Bip01 L Finger0
+  - first:
+      4: 400020
+    second: Bip01 L Finger1
+  - first:
+      4: 400022
+    second: Bip01 L Foot
+  - first:
+      4: 400024
+    second: Bip01 L Forearm
+  - first:
+      4: 400026
+    second: Bip01 L Hand
+  - first:
+      4: 400028
+    second: Bip01 L LowerLip
+  - first:
+      4: 400030
+    second: Bip01 L Thigh
+  - first:
+      4: 400032
+    second: Bip01 L Toe0
+  - first:
+      4: 400034
+    second: Bip01 L UpperArm
+  - first:
+      4: 400036
+    second: Bip01 L UpperLip
+  - first:
+      4: 400038
+    second: Bip01 Neck
+  - first:
+      4: 400040
+    second: Bip01 Nose
+  - first:
+      4: 400042
+    second: Bip01 Pelvis
+  - first:
+      4: 400044
+    second: Bip01 R Calf
+  - first:
+      4: 400046
+    second: Bip01 R Clavicle
+  - first:
+      4: 400048
+    second: Bip01 R Ear 1
+  - first:
+      4: 400050
+    second: Bip01 R Ear 2
+  - first:
+      4: 400052
+    second: Bip01 R Ear 3
+  - first:
+      4: 400054
+    second: Bip01 R Eyebrow
+  - first:
+      4: 400056
+    second: Bip01 R Finger0
+  - first:
+      4: 400058
+    second: Bip01 R Finger1
+  - first:
+      4: 400060
+    second: Bip01 R Foot
+  - first:
+      4: 400062
+    second: Bip01 R Forearm
+  - first:
+      4: 400064
+    second: Bip01 R Hand
+  - first:
+      4: 400066
+    second: Bip01 R LowerLip
+  - first:
+      4: 400068
+    second: Bip01 R Thigh
+  - first:
+      4: 400070
+    second: Bip01 R Toe0
+  - first:
+      4: 400072
+    second: Bip01 R UpperArm
+  - first:
+      4: 400074
+    second: Bip01 R UpperLip
+  - first:
+      4: 400076
+    second: Bip01 Spine
+  - first:
+      4: 400078
+    second: Bip01 Spine1
+  - first:
+      4: 400080
+    second: Bip01 Tail
+  - first:
+      4: 400082
+    second: Bip01 Tail1
+  - first:
+      4: 400084
+    second: Bip01 Tail2
+  - first:
+      4: 400086
+    second: Bip01 Tongue 1
+  - first:
+      4: 400088
+    second: Bip01 Tongue 2
+  - first:
+      4: 400090
+    second: Bip01 Tongue 3
+  - first:
+      4: 400092
+    second: //RootNode
+  - first:
+      4: 400094
+    second: Bip01 L Lip
+  - first:
+      4: 400096
+    second: Bip01 L LowerEyelid
+  - first:
+      4: 400098
+    second: Bip01 L UpperEyelid
+  - first:
+      4: 400100
+    second: Bip01 R Lip
+  - first:
+      4: 400102
+    second: Bip01 R LowerEyelid
+  - first:
+      4: 400104
+    second: Bip01 R UpperEyelid
+  - first:
+      4: 400106
+    second: Bip01 UpperLip
+  - first:
+      4: 400108
+    second: Dog
+  - first:
+      4: 400110
+    second: Eye Left
+  - first:
+      4: 400112
+    second: Eye Right
+  - first:
+      4: 400114
+    second: Teeth Lower
+  - first:
+      4: 400116
+    second: Teeth Upper
+  - first:
+      4: 400118
+    second: Tongue
+  - first:
+      4: 400120
+    second: Bip01 R Upperlip
+  - first:
+      4: 400122
+    second: Dog 1
+  - first:
+      4: 400124
+    second: Dog Head
+  - first:
+      4: 400126
+    second: Dog Jaw
+  - first:
+      4: 400128
+    second: Dog L Calf
+  - first:
+      4: 400130
+    second: Dog L Clavicle
+  - first:
+      4: 400132
+    second: Dog L Eyebrow
+  - first:
+      4: 400134
+    second: Dog L Finger0
+  - first:
+      4: 400136
+    second: Dog L Finger1
+  - first:
+      4: 400138
+    second: Dog L Foot
+  - first:
+      4: 400140
+    second: Dog L Forearm
+  - first:
+      4: 400142
+    second: Dog L Hand
+  - first:
+      4: 400144
+    second: Dog L Lip
+  - first:
+      4: 400146
+    second: Dog L LowerEyelid
+  - first:
+      4: 400148
+    second: Dog L LowerLip
+  - first:
+      4: 400150
+    second: Dog L Thigh
+  - first:
+      4: 400152
+    second: Dog L Toe0
+  - first:
+      4: 400154
+    second: Dog L UpperArm
+  - first:
+      4: 400156
+    second: Dog L UpperEyelid
+  - first:
+      4: 400158
+    second: Dog L UpperLip
+  - first:
+      4: 400160
+    second: Dog Neck
+  - first:
+      4: 400162
+    second: Dog Nose
+  - first:
+      4: 400164
+    second: Dog Pelvis
+  - first:
+      4: 400166
+    second: Dog Ponytail1
+  - first:
+      4: 400168
+    second: Dog Ponytail11
+  - first:
+      4: 400170
+    second: Dog Ponytail12
+  - first:
+      4: 400172
+    second: Dog Ponytail2
+  - first:
+      4: 400174
+    second: Dog Ponytail21
+  - first:
+      4: 400176
+    second: Dog Ponytail22
+  - first:
+      4: 400178
+    second: Dog R Calf
+  - first:
+      4: 400180
+    second: Dog R Clavicle
+  - first:
+      4: 400182
+    second: Dog R Eyebrow
+  - first:
+      4: 400184
+    second: Dog R Finger0
+  - first:
+      4: 400186
+    second: Dog R Finger1
+  - first:
+      4: 400188
+    second: Dog R Foot
+  - first:
+      4: 400190
+    second: Dog R Forearm
+  - first:
+      4: 400192
+    second: Dog R Hand
+  - first:
+      4: 400194
+    second: Dog R Lip
+  - first:
+      4: 400196
+    second: Dog R LowerEyelid
+  - first:
+      4: 400198
+    second: Dog R LowerLip
+  - first:
+      4: 400200
+    second: Dog R Thigh
+  - first:
+      4: 400202
+    second: Dog R Toe0
+  - first:
+      4: 400204
+    second: Dog R UpperArm
+  - first:
+      4: 400206
+    second: Dog R UpperEyelid
+  - first:
+      4: 400208
+    second: Dog R Upperlip
+  - first:
+      4: 400210
+    second: Dog Spine
+  - first:
+      4: 400212
+    second: Dog Spine1
+  - first:
+      4: 400214
+    second: Dog Tail
+  - first:
+      4: 400216
+    second: Dog Tail1
+  - first:
+      4: 400218
+    second: Dog Tail2
+  - first:
+      4: 400220
+    second: Dog Tongue
+  - first:
+      4: 400222
+    second: Dog Tongue02
+  - first:
+      4: 400224
+    second: Dog Tongue03
+  - first:
+      4: 400226
+    second: Dog UpperLip
+  - first:
+      4: 400228
+    second: Dog Mesh
+  - first:
+      23: 2300000
+    second: Eye Left
+  - first:
+      23: 2300002
+    second: Eye Right
+  - first:
+      23: 2300004
+    second: Teeth Lower
+  - first:
+      23: 2300006
+    second: Teeth Upper
+  - first:
+      23: 2300008
+    second: Dog
+  - first:
+      23: 2300010
+    second: Tongue
+  - first:
+      23: 2300012
+    second: Dog Mesh
+  - first:
+      33: 3300000
+    second: Eye Left
+  - first:
+      33: 3300002
+    second: Eye Right
+  - first:
+      33: 3300004
+    second: Teeth Lower
+  - first:
+      33: 3300006
+    second: Teeth Upper
+  - first:
+      33: 3300008
+    second: Dog
+  - first:
+      33: 3300010
+    second: Tongue
+  - first:
+      33: 3300012
+    second: Dog Mesh
+  - first:
+      43: 4300000
+    second: Dog
+  - first:
+      43: 4300002
+    second: Teeth Lower
+  - first:
+      43: 4300004
+    second: Tongue
+  - first:
+      43: 4300006
+    second: Eye Left
+  - first:
+      43: 4300008
+    second: Eye Right
+  - first:
+      43: 4300010
+    second: Teeth Upper
+  - first:
+      43: 4300012
+    second: Dog Mesh
+  - first:
+      74: 7400000
+    second: Dog Idle
+  - first:
+      74: 7400002
+    second: Dog Run
+  - first:
+      74: 7400004
+    second: Dog Walk
+  - first:
+      74: 7400006
+    second: Dog Idle 2
+  - first:
+      74: 7400008
+    second: Dog Talk
+  - first:
+      74: 7400010
+    second: Dog Jump Up
+  - first:
+      74: 7400012
+    second: Dog Fall
+  - first:
+      74: 7400014
+    second: Dog Land
+  - first:
+      74: 7400016
+    second: Dog Rolling
+  - first:
+      74: 7400018
+    second: Dog Sleep
+  - first:
+      74: 7400020
+    second: Dog Success
+  - first:
+      74: 7400022
+    second: Dog Failure
+  - first:
+      74: 7400024
+    second: Dog Run In Place
+  - first:
+      74: 7400026
+    second: Dog Walk In Place
+  - first:
+      74: 7400028
+    second: Dog Rolling In Place
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Dog
+  - first:
+      137: 13700002
+    second: Tongue
+  - first:
+      137: 13700004
+    second: Dog Mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dog
+    second: {fileID: 2100000, guid: 28006dda3c553214bae683cdb706c9fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eye Shine
+    second: {fileID: 2100000, guid: 57db5939a45125542975998567218f79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyes
+    second: {fileID: 2100000, guid: 225d14123fa732141acf8ecd27401643, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.1
+    animationPositionError: 0.1
+    animationScaleError: 0.1
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - Bip01/Bip01 Pelvis/Bip01 Tail/Bip01 Tail1
+    - Bip01/Bip01 Pelvis/Bip01 Tail/Bip01 Tail1/Bip01 Tail2
+    - Bip01/Bip01 Pelvis/Bip01 Tail
+    - Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Neck/Bip01 Head/Bip01 L Ear
+      1
+    - Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Neck/Bip01 Head/Bip01 L Ear
+      1/Bip01 L Ear 2
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Dog Idle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 5
+      lastFrame: 60
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog
+        weight: 1
+      - path: Dog/Dog Pelvis
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot/Dog L Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot/Dog R Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog L
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog R
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02/Dog Tongue03
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Nose
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11/Dog Ponytail12
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21/Dog Ponytail22
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Upperlip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Left
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Right
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Teeth Upper
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1/Dog Tail2
+        weight: 1
+      - path: Dog Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 5dbdf3fc25acf3c42afd6016f3a02615, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dog Run
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 70
+      lastFrame: 90
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog
+        weight: 1
+      - path: Dog/Dog Pelvis
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot/Dog L Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot/Dog R Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog L
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog R
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02/Dog Tongue03
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Nose
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11/Dog Ponytail12
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21/Dog Ponytail22
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Upperlip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Left
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Right
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Teeth Upper
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1/Dog Tail2
+        weight: 1
+      - path: Dog Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 5dbdf3fc25acf3c42afd6016f3a02615, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dog Walk
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 100
+      lastFrame: 120
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog
+        weight: 1
+      - path: Dog/Dog Pelvis
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot/Dog L Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot/Dog R Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog L
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog R
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02/Dog Tongue03
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Nose
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11/Dog Ponytail12
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21/Dog Ponytail22
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Upperlip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Left
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Right
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Teeth Upper
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1/Dog Tail2
+        weight: 1
+      - path: Dog Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 5dbdf3fc25acf3c42afd6016f3a02615, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dog Idle 2
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 130
+      lastFrame: 190
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog
+        weight: 1
+      - path: Dog/Dog Pelvis
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot/Dog L Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot/Dog R Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog L
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog R
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02/Dog Tongue03
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Nose
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11/Dog Ponytail12
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21/Dog Ponytail22
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Upperlip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Left
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Right
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Teeth Upper
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1/Dog Tail2
+        weight: 1
+      - path: Dog Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 5dbdf3fc25acf3c42afd6016f3a02615, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dog Talk
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 200
+      lastFrame: 260
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog
+        weight: 1
+      - path: Dog/Dog Pelvis
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot/Dog L Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot/Dog R Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog L
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog R
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02/Dog Tongue03
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Nose
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11/Dog Ponytail12
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21/Dog Ponytail22
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Upperlip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Left
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Right
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Teeth Upper
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1/Dog Tail2
+        weight: 1
+      - path: Dog Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 5dbdf3fc25acf3c42afd6016f3a02615, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dog Jump Up
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 270
+      lastFrame: 300
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog
+        weight: 1
+      - path: Dog/Dog Pelvis
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot/Dog L Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot/Dog R Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog L
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog R
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02/Dog Tongue03
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Nose
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11/Dog Ponytail12
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21/Dog Ponytail22
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Upperlip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Left
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Right
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Teeth Upper
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1/Dog Tail2
+        weight: 1
+      - path: Dog Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 5dbdf3fc25acf3c42afd6016f3a02615, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dog Fall
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 310
+      lastFrame: 340
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog
+        weight: 1
+      - path: Dog/Dog Pelvis
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot/Dog L Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot/Dog R Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog L
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog R
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02/Dog Tongue03
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Nose
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11/Dog Ponytail12
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21/Dog Ponytail22
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Upperlip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Left
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Right
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Teeth Upper
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1/Dog Tail2
+        weight: 1
+      - path: Dog Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 5dbdf3fc25acf3c42afd6016f3a02615, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dog Land
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 350
+      lastFrame: 365
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog
+        weight: 1
+      - path: Dog/Dog Pelvis
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot/Dog L Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot/Dog R Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog L
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog R
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02/Dog Tongue03
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Nose
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11/Dog Ponytail12
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21/Dog Ponytail22
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Upperlip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Left
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Right
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Teeth Upper
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1/Dog Tail2
+        weight: 1
+      - path: Dog Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 5dbdf3fc25acf3c42afd6016f3a02615, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dog Rolling
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 370
+      lastFrame: 390
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog
+        weight: 1
+      - path: Dog/Dog Pelvis
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot/Dog L Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot/Dog R Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog L
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog R
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02/Dog Tongue03
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Nose
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11/Dog Ponytail12
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21/Dog Ponytail22
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Upperlip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Left
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Right
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Teeth Upper
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1/Dog Tail2
+        weight: 1
+      - path: Dog Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 5dbdf3fc25acf3c42afd6016f3a02615, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dog Sleep
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 400
+      lastFrame: 460
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog
+        weight: 1
+      - path: Dog/Dog Pelvis
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot/Dog L Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot/Dog R Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog L
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog R
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02/Dog Tongue03
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Nose
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11/Dog Ponytail12
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21/Dog Ponytail22
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Upperlip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Left
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Right
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Teeth Upper
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1/Dog Tail2
+        weight: 1
+      - path: Dog Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 5dbdf3fc25acf3c42afd6016f3a02615, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dog Success
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 470
+      lastFrame: 505
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog
+        weight: 1
+      - path: Dog/Dog Pelvis
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot/Dog L Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot/Dog R Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog L
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog R
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02/Dog Tongue03
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Nose
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11/Dog Ponytail12
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21/Dog Ponytail22
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Upperlip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Left
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Right
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Teeth Upper
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1/Dog Tail2
+        weight: 1
+      - path: Dog Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 5dbdf3fc25acf3c42afd6016f3a02615, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dog Failure
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 510
+      lastFrame: 560
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog
+        weight: 1
+      - path: Dog/Dog Pelvis
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot/Dog L Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot/Dog R Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog L
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog R
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02/Dog Tongue03
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Nose
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11/Dog Ponytail12
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21/Dog Ponytail22
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Upperlip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Left
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Right
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Teeth Upper
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1/Dog Tail2
+        weight: 1
+      - path: Dog Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 5dbdf3fc25acf3c42afd6016f3a02615, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dog Run In Place
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 570
+      lastFrame: 590
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog
+        weight: 1
+      - path: Dog/Dog Pelvis
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot/Dog L Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot/Dog R Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog L
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog R
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02/Dog Tongue03
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Nose
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11/Dog Ponytail12
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21/Dog Ponytail22
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Upperlip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Left
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Right
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Teeth Upper
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1/Dog Tail2
+        weight: 1
+      - path: Dog Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 5dbdf3fc25acf3c42afd6016f3a02615, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dog Walk In Place
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 600
+      lastFrame: 620
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog
+        weight: 1
+      - path: Dog/Dog Pelvis
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot/Dog L Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot/Dog R Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog L
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog R
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02/Dog Tongue03
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Nose
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11/Dog Ponytail12
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21/Dog Ponytail22
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Upperlip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Left
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Right
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Teeth Upper
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1/Dog Tail2
+        weight: 1
+      - path: Dog Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 5dbdf3fc25acf3c42afd6016f3a02615, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dog Rolling In Place
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 630
+      lastFrame: 650
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dog
+        weight: 1
+      - path: Dog/Dog Pelvis
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog L Thigh/Dog L Calf/Dog L Foot/Dog L Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog R Thigh/Dog R Calf/Dog R Foot/Dog R Toe0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog L Clavicle/Dog L UpperArm/Dog
+          L Forearm/Dog L Hand/Dog L Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog L
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog R
+          LowerLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Dog Tongue/Dog
+          Tongue02/Dog Tongue03
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Teeth
+          Lower
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Jaw/Tongue
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog L UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Nose
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail1/Dog
+          Ponytail11/Dog Ponytail12
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog Ponytail2/Dog
+          Ponytail21/Dog Ponytail22
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Eyebrow
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Lip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R LowerEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R UpperEyelid
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog R Upperlip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Dog UpperLip
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Left
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Eye Right
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog Neck/Dog Head/Teeth Upper
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger0
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Spine/Dog Spine1/Dog R Clavicle/Dog R UpperArm/Dog
+          R Forearm/Dog R Hand/Dog R Finger1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1
+        weight: 1
+      - path: Dog/Dog Pelvis/Dog Tail/Dog Tail1/Dog Tail2
+        weight: 1
+      - path: Dog Mesh
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 5dbdf3fc25acf3c42afd6016f3a02615, type: 2}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.015
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Dog Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog L Finger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog L Finger1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog R Finger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dog R Finger1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Dog(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dog
+      parentName: Dog(Clone)
+      position: {x: -0, y: 0.30424446, z: -0.00071313855}
+      rotation: {x: -0.50000036, y: 0.49999967, z: 0.49999967, w: 0.50000036}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Dog Pelvis
+      parentName: Dog
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.5, y: 0.5, z: 0.49999934, w: 0.50000066}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Dog L Thigh
+      parentName: Dog Pelvis
+      position: {x: 0.00000017166137, y: 0.00000018663704, z: 0.12497555}
+      rotation: {x: -0.04998707, y: 0.9987499, z: -0.00000070489506, w: -0.0000007646687}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Dog L Calf
+      parentName: Dog L Thigh
+      position: {x: -0.11671986, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.09983687, w: 0.9950038}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Dog L Foot
+      parentName: Dog L Calf
+      position: {x: -0.10553029, y: 0.0000000017881393, z: 0}
+      rotation: {x: -0.0000000021844762, y: -0.000000043656765, z: -0.04997475, w: 0.9987505}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Dog L Toe0
+      parentName: Dog L Foot
+      position: {x: -0.07665528, y: 0.1583514, z: 0}
+      rotation: {x: -0.000000015454305, y: 0.000000015454315, z: -0.7071068, w: 0.7071068}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Dog R Thigh
+      parentName: Dog Pelvis
+      position: {x: -0.00000017166137, y: -0.00000016003847, z: -0.124975584}
+      rotation: {x: -0.04998494, y: 0.99875, z: -0.0000007048934, w: -0.0000007646701}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Dog R Calf
+      parentName: Dog R Thigh
+      position: {x: -0.11671989, y: -0.0000000017881393, z: 0}
+      rotation: {x: 2.29653e-15, y: 3.800983e-15, z: 0.099837095, w: 0.9950038}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dog R Foot
+      parentName: Dog R Calf
+      position: {x: -0.10553029, y: 0.0000000017881393, z: 0}
+      rotation: {x: -0.000000002184568, y: -0.00000004365676, z: -0.049977016, w: 0.9987504}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Dog R Toe0
+      parentName: Dog R Foot
+      position: {x: -0.07665528, y: 0.15835139, z: 0}
+      rotation: {x: 0.00000001545706, y: -0.000000015457049, z: -0.7071068, w: 0.7071068}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Dog Spine
+      parentName: Dog Pelvis
+      position: {x: -0.070278734, y: -0.00023746741, z: 0.00000009779184}
+      rotation: {x: -0.0000020804764, y: 0.000000693676, z: -0.000398159, w: 0.99999994}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Dog Spine1
+      parentName: Dog Spine
+      position: {x: -0.2982437, y: -0.00025516894, z: -7.0773637e-10}
+      rotation: {x: 8.086326e-14, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dog L Clavicle
+      parentName: Dog Spine1
+      position: {x: -0.24219903, y: 0.000062133375, z: 0.08277358}
+      rotation: {x: -0.7071067, y: -0.00028256493, z: 0.70710677, w: -0.00028058785}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dog L UpperArm
+      parentName: Dog L Clavicle
+      position: {x: -0.104492724, y: 0, z: 0}
+      rotation: {x: 0.004390403, y: 0.0065565123, z: -0.006148288, w: 0.99995}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Dog L Forearm
+      parentName: Dog L UpperArm
+      position: {x: -0.12206523, y: 4.4703483e-10, z: 0}
+      rotation: {x: 5.929374e-12, y: -4.656235e-10, z: 0.012733235, w: 0.99991894}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Dog L Hand
+      parentName: Dog L Forearm
+      position: {x: -0.09446989, y: 0, z: 0}
+      rotation: {x: -0.7068252, y: 0.000000023777343, z: 0.0000000071676403, w: 0.7073883}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+    - name: Dog L Finger0
+      parentName: Dog L Hand
+      position: {x: -0.06425085, y: -0.000036506648, z: -0.045893427}
+      rotation: {x: 0.49417692, y: -0.49947187, z: 0.48327786, w: 0.5222639}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Dog L Finger1
+      parentName: Dog L Hand
+      position: {x: -0.09178688, y: -0.000000057220458, z: 0}
+      rotation: {x: -0.00039815952, y: -0.0000000018844728, z: -7.503208e-13, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Dog Neck
+      parentName: Dog Spine1
+      position: {x: -0.3204534, y: -0.000046565387, z: -1.2915408e-10}
+      rotation: {x: 8.086326e-14, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dog Head
+      parentName: Dog Neck
+      position: {x: -0.05847919, y: 0, z: 0}
+      rotation: {x: 6.9866035e-10, y: -0.0000000015696495, z: 0.00039882786, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dog Jaw
+      parentName: Dog Head
+      position: {x: -0.17581135, y: 0.14950551, z: 0.00000007123714}
+      rotation: {x: 0.0000023287091, y: -0.000003897296, z: 0.96662146, w: -0.25620878}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: Dog L LowerLip
+      parentName: Dog Jaw
+      position: {x: -0.33257547, y: -0.02361454, z: 0.094655484}
+      rotation: {x: 0.000002213321, y: -0.0000038597127, z: 0.9673184, w: 0.2535647}
+      scale: {x: 1.0000001, y: 0.99999976, z: 0.9999998}
+    - name: Dog R LowerLip
+      parentName: Dog Jaw
+      position: {x: -0.33257547, y: -0.023614082, z: -0.0946556}
+      rotation: {x: 0.000002213321, y: -0.0000038597127, z: 0.9673184, w: 0.2535647}
+      scale: {x: 1.0000001, y: 0.99999976, z: 0.9999998}
+    - name: Dog Tongue
+      parentName: Dog Jaw
+      position: {x: 0.09107517, y: -0.040624235, z: -0.00000044110374}
+      rotation: {x: 0.00000065655877, y: 0.0000026575008, z: 0.046964303, w: 0.9988966}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: Dog Tongue02
+      parentName: Dog Tongue
+      position: {x: -0.114709616, y: -0.000091094975, z: 0.0000035652329}
+      rotation: {x: -0.018594863, y: 0.045741968, z: -0.021381592, w: 0.9985513}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Dog Tongue03
+      parentName: Dog Tongue02
+      position: {x: -0.11470573, y: -0.00009132385, z: 0}
+      rotation: {x: 0.000000022351738, y: 0.0000000055879363, z: 0.000000029802322, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Teeth Lower
+      parentName: Dog Jaw
+      position: {x: -0.19714805, y: -0.04071693, z: 0.00000045776366}
+      rotation: {x: 0.4859872, y: 0.51362985, z: -0.48598403, w: 0.51363456}
+      scale: {x: 0.9999998, y: 1, z: 1}
+    - name: Tongue
+      parentName: Dog Jaw
+      position: {x: -0.06438893, y: -0.055046767, z: -0.0000019454956}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999976, y: 1.0000002, z: 0.9999999}
+    - name: Dog L Eyebrow
+      parentName: Dog Head
+      position: {x: -0.6228487, y: 0.19839418, z: 0.10596819}
+      rotation: {x: -0.0002810585, y: 0.7071067, z: -0.0002800228, w: 0.7071067}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Dog L Lip
+      parentName: Dog Head
+      position: {x: -0.13708237, y: 0.26735136, z: 0.2842456}
+      rotation: {x: -0.00083564286, y: 0.7071063, z: -0.00028755536, w: 0.7071067}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Dog L LowerEyelid
+      parentName: Dog Head
+      position: {x: -0.4013468, y: 0.32507077, z: 0.16759497}
+      rotation: {x: -0.00000002881592, y: -0.0000042041347, z: 1, w: 0.00000066579014}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Dog L UpperEyelid
+      parentName: Dog Head
+      position: {x: -0.5017053, y: 0.3112226, z: 0.17033744}
+      rotation: {x: 0.9999998, y: 0.00039609798, z: -0.000000040002288, w: 0.00040027316}
+      scale: {x: 1, y: 0.99999976, z: 0.99999976}
+    - name: Dog L UpperLip
+      parentName: Dog Head
+      position: {x: 0.05653587, y: 0.48013544, z: 0.14390135}
+      rotation: {x: 6.891363e-14, y: 0.0000000011042732, z: -0.00039883054, w: 0.99999994}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Dog Nose
+      parentName: Dog Head
+      position: {x: -0.15576153, y: 0.59540075, z: 0.0000006737233}
+      rotation: {x: -0.0000030164006, y: 0.000002963673, z: -0.70256907, w: 0.71161556}
+      scale: {x: 1, y: 1.0000002, z: 0.9999998}
+    - name: Dog Ponytail1
+      parentName: Dog Head
+      position: {x: -0.5389202, y: 0.015272083, z: 0.28831154}
+      rotation: {x: -0.7032558, y: 0.00031130854, z: 0.7108863, w: -0.008486728}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dog Ponytail11
+      parentName: Dog Ponytail1
+      position: {x: -0.17861891, y: -0.00014222144, z: -0.000000114440915}
+      rotation: {x: 4.090641e-11, y: 0.000000010710131, z: -0.0038193848, w: 0.9999927}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Dog Ponytail12
+      parentName: Dog Ponytail11
+      position: {x: -0.17861581, y: -0.0001422143, z: 0}
+      rotation: {x: -3.238175e-10, y: -0.000000020026231, z: 0.0070833056, w: 0.9999749}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Dog Ponytail2
+      parentName: Dog Head
+      position: {x: -0.5389202, y: 0.015273681, z: -0.28831148}
+      rotation: {x: 0.7032558, y: -0.00031531818, z: 0.7108863, w: -0.008486689}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Dog Ponytail21
+      parentName: Dog Ponytail2
+      position: {x: -0.17861895, y: -0.00014222144, z: 0.000000114440915}
+      rotation: {x: 0.0000000051489146, y: 0.000000006965304, z: -0.0038193811, w: 0.9999927}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Dog Ponytail22
+      parentName: Dog Ponytail21
+      position: {x: -0.17861581, y: -0.00014221788, z: 0}
+      rotation: {x: 0.000000003890118, y: -0.000000023256094, z: 0.007083304, w: 0.9999749}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dog R Eyebrow
+      parentName: Dog Head
+      position: {x: -0.6228487, y: 0.19839473, z: -0.105967104}
+      rotation: {x: 0.0002810585, y: -0.7071067, z: -0.0002839774, w: 0.7071067}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Dog R Lip
+      parentName: Dog Head
+      position: {x: -0.13708237, y: 0.26735288, z: -0.28424412}
+      rotation: {x: 0.00083568995, y: -0.7071063, z: -0.00029136872, w: 0.7071067}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Dog R LowerEyelid
+      parentName: Dog Head
+      position: {x: -0.4013468, y: 0.3250717, z: -0.16759317}
+      rotation: {x: 0.000000028811831, y: -0.0000014304887, z: 1, w: 0.0000006657903}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Dog R UpperEyelid
+      parentName: Dog Head
+      position: {x: -0.5017053, y: 0.31122354, z: -0.17033571}
+      rotation: {x: 0.9999998, y: 0.000396096, z: -0.000004912357, w: -0.00040146962}
+      scale: {x: 1, y: 0.99999976, z: 0.99999976}
+    - name: Dog R Upperlip
+      parentName: Dog Head
+      position: {x: 0.05653587, y: 0.48013616, z: -0.1438987}
+      rotation: {x: 6.891363e-14, y: 0.0000000011042732, z: -0.00039883054, w: 0.99999994}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Dog UpperLip
+      parentName: Dog Head
+      position: {x: 0.09146324, y: 0.5039983, z: 0.00000054863284}
+      rotation: {x: 6.891363e-14, y: 0.0000000011042732, z: -0.00039883054, w: 0.99999994}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Eye Left
+      parentName: Dog Head
+      position: {x: -0.4448382, y: 0.23875715, z: 0.15231365}
+      rotation: {x: -0.5, y: 0.50000006, z: 0.4999994, w: 0.50000066}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.99999994}
+    - name: Eye Right
+      parentName: Dog Head
+      position: {x: -0.44483837, y: 0.2387575, z: -0.15299971}
+      rotation: {x: -0.5, y: 0.50000006, z: 0.4999994, w: 0.50000066}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.99999994}
+    - name: Teeth Upper
+      parentName: Dog Head
+      position: {x: -0.07491107, y: 0.3822921, z: 0.00000047743316}
+      rotation: {x: -0.6302177, y: 0.32065526, z: 0.6302221, w: 0.32066497}
+      scale: {x: 1.0000002, y: 1.0000006, z: 0.9999998}
+    - name: Dog R Clavicle
+      parentName: Dog Spine1
+      position: {x: -0.24219903, y: 0.0000625927, z: -0.082773566}
+      rotation: {x: 0.7071067, y: 0.0002805408, z: 0.70710677, w: -0.00028251784}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dog R UpperArm
+      parentName: Dog R Clavicle
+      position: {x: -0.104492724, y: 0, z: 0}
+      rotation: {x: -0.0043903985, y: -0.0065565123, z: -0.006148287, w: 0.99995}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Dog R Forearm
+      parentName: Dog R UpperArm
+      position: {x: -0.12206523, y: 8.9406965e-10, z: 0}
+      rotation: {x: 9.371764e-10, y: -4.5376475e-10, z: 0.012733235, w: 0.99991894}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Dog R Hand
+      parentName: Dog R Forearm
+      position: {x: -0.09446989, y: 0, z: 0}
+      rotation: {x: 0.7068252, y: -0.0000000015413265, z: 0.0000000010926733, w: 0.7073883}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: Dog R Finger0
+      parentName: Dog R Hand
+      position: {x: -0.06425082, y: -0.000036506648, z: 0.045893427}
+      rotation: {x: -0.49417695, y: 0.4994719, z: 0.4832779, w: 0.5222639}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Dog R Finger1
+      parentName: Dog R Hand
+      position: {x: -0.091786906, y: -0.000000057220458, z: 0}
+      rotation: {x: 0.00039815952, y: 0.0000000017680575, z: -7.0396895e-13, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dog Tail
+      parentName: Dog Pelvis
+      position: {x: -0.19838068, y: -0.19997698, z: 0.0000007492607}
+      rotation: {x: -0.0000037155285, y: -0.00000092462, z: 0.7159656, w: 0.6981356}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Dog Tail1
+      parentName: Dog Tail
+      position: {x: -0.10923245, y: -0.000086975095, z: -2.4185282e-10}
+      rotation: {x: 0.0000000032644558, y: 0.00000001855283, z: -0.0063598463, w: 0.9999798}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Dog Tail2
+      parentName: Dog Tail1
+      position: {x: -0.109231144, y: -0.000086975095, z: -2.409797e-10}
+      rotation: {x: -4.681169e-10, y: -0.0000000026168536, z: 0.0013209152, w: 0.99999917}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dog Mesh
+      parentName: Dog(Clone)
+      position: {x: -0, y: 0, z: 6.3062e-11}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.015
+    rootMotionBoneName: 
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
