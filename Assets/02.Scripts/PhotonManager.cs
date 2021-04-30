@@ -38,14 +38,17 @@ public class PhotonManager : MonoBehaviourPunCallbacks
         GameObject tempRoom = null;
         foreach (var room in roomList)
         {
+            //룸이 삭제된 경우 -> 딕셔너리에서 삭제, 프리팹 삭제
             if (room.RemovedFromList == true)
             {
                 roomDict.TryGetValue(room.Name, out tempRoom);
                 roomDict.Remove(room.Name);
                 Destroy(tempRoom);
             }
+            //룸 정보 변경, 갱신
             else
             {
+                //처음 생성된 경우, 딕셔너리에 데이터 추가, 프리팹 생성
                 if (roomDict.ContainsKey(room.Name) == false)
                 {
                     GameObject _room = Instantiate(roomPrefabs, scrollContents);

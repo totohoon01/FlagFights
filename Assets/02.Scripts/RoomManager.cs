@@ -15,7 +15,7 @@ public class RoomManager : MonoBehaviourPunCallbacks
     //START버튼 누르면 유저에게 각각 아바타 할당, MAP씬, INFO씬 로딩
 
     public TMP_Text userIDText;
-    public TMP_Text[] playerSeat;
+    public TMP_Text[] playerSeat = null;
     private int playerCount = 0;
 
     void Start()
@@ -25,6 +25,7 @@ public class RoomManager : MonoBehaviourPunCallbacks
     #region PHOTON_CALLBACKS
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
+        print(newPlayer.NickName);
         foreach (var seat in playerSeat)
         {
             if (string.IsNullOrEmpty(seat.text))
@@ -46,13 +47,17 @@ public class RoomManager : MonoBehaviourPunCallbacks
             }
         }
     }
+    public override void OnLeftRoom()
+    {
+        SceneManager.LoadScene("LobbyScene"); //리브룸이랑 따로호출할것 느림
+    }
     #endregion
 
     #region UI_BUTTON_CALLBACKS
     public void OnExitButtonClick()
     {
         PhotonNetwork.LeaveRoom();
-        SceneManager.LoadScene("LobbyScene");
+        // PhotonNetwork.Disconnect();
     }
     #endregion
 }
