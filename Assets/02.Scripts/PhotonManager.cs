@@ -28,11 +28,21 @@ public class PhotonManager : MonoBehaviourPunCallbacks
     {
         PhotonNetwork.JoinLobby(); //로비로
     }
+    public override void OnJoinedLobby()
+    {
+        print("Joined to Lobby!");
+    }
     public override void OnCreatedRoom()
     {
-        print(PhotonNetwork.CurrentRoom.Name);
-        PhotonNetwork.LoadLevel("RoomScene"); //룸생성, 룸씬 로딩
+        print("방 생성");
+        // PhotonNetwork.LoadLevel("RoomScene"); //룸생성, 룸씬 로딩
     }
+    public override void OnJoinedRoom()
+    {
+        if (PhotonNetwork.IsMasterClient)
+            PhotonNetwork.LoadLevel("RoomScene"); //룸생성, 룸씬 로딩
+    }
+
     public override void OnRoomListUpdate(List<RoomInfo> roomList)
     {
         GameObject tempRoom = null;

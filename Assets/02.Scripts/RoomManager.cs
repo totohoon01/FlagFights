@@ -18,8 +18,12 @@ public class RoomManager : MonoBehaviourPunCallbacks
     public TMP_Text[] playerSeat = null;
     private int playerCount = 0;
 
-    void Start()
+    void Awake()
     {
+        if (string.IsNullOrEmpty(PhotonNetwork.NickName))
+        {
+            PhotonNetwork.NickName = $"USER_{Random.Range(0, 100)}";
+        }
         userIDText.text = PhotonNetwork.NickName;
     }
     #region PHOTON_CALLBACKS
