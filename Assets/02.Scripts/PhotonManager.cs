@@ -93,7 +93,7 @@ public class PhotonManager : MonoBehaviourPunCallbacks
         {
             PhotonNetwork.NickName = userId.text;
         }
-        print(PhotonNetwork.NickName);
+        // print(PhotonNetwork.NickName);
 
         PhotonNetwork.CreateRoom(roomName, ro);
     }

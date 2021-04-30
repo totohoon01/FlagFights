@@ -15,6 +15,10 @@ public class GameManager : MonoBehaviour
     public static string flagOwner = "Nobody";
     public static bool isGameEnd = false;
 
+    //랜덤할당쓰
+    public static string[] models = new string[] { "cat", "dog", "rat", "turtle" };
+
+
     [Header("UI TEXTs")]
     public TMP_Text flagOwnerInfo;
     public TMP_Text timeInfo;
