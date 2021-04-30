@@ -10,8 +10,9 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     private static GameManager instance = null;
-    private static int timeLimit = 300;
+    private static int timeLimit = 10;
     public static string flagOwner = "Nobody";
+    public static bool isGameEnd = false;
 
     [Header("UI TEXTs")]
     public TMP_Text flagOwnerInfo;
@@ -41,5 +42,6 @@ public class GameManager : MonoBehaviour
             timeLimit -= 1;
             timeInfo.text = $"Time : {timeLimit.ToString():000}";
         }
+        isGameEnd = true;
     }
 }

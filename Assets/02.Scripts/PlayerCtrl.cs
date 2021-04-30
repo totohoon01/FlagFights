@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 
 public class PlayerCtrl : MonoBehaviour
 {
@@ -11,8 +10,6 @@ public class PlayerCtrl : MonoBehaviour
     public float moveSpeed = 50.0f;
     public float rotateSpeed = 20.0f;
     public float jumpPower = 5.0f;
-
-    public bool isGameEnd = false;
     public bool isWin = false;
 
     //Get Hash
@@ -36,10 +33,10 @@ public class PlayerCtrl : MonoBehaviour
         Fall();
 
         //temp for anim check
-        if (isGameEnd)
+        if (GameManager.isGameEnd)
         {
             GameEndAnim();
-            isGameEnd = false;
+            GameManager.isGameEnd = false;
         }
     }
 
