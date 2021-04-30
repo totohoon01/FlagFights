@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerCtrl : MonoBehaviour
 {
@@ -15,13 +16,12 @@ public class PlayerCtrl : MonoBehaviour
     public bool isWin = false;
 
     //Get Hash
-    private int hashRun = Animator.StringToHash("isRun");
-    private int hashJump = Animator.StringToHash("triJump");
-    private int hashFall = Animator.StringToHash("isFall");
-    private int hashWin = Animator.StringToHash("triWin");
-    private int hashLose = Animator.StringToHash("triLose");
+    private readonly int hashRun = Animator.StringToHash("isRun");
+    private readonly int hashJump = Animator.StringToHash("triJump");
+    private readonly int hashFall = Animator.StringToHash("isFall");
+    private readonly int hashWin = Animator.StringToHash("triWin");
+    private readonly int hashLose = Animator.StringToHash("triLose");
 
-    // Start is called before the first frame update
     void Start()
     {
         playerTr = GetComponent<Transform>();
@@ -29,12 +29,13 @@ public class PlayerCtrl : MonoBehaviour
         playerRb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         Move();
         Jump();
         Fall();
+
+        //temp for anim check
         if (isGameEnd)
         {
             GameEndAnim();
@@ -70,13 +71,13 @@ public class PlayerCtrl : MonoBehaviour
     }
     void Fall()
     {
+
         if (transform.position.y < -2.0f)
             plyerAnim.SetBool(hashFall, true);
 
         if (playerTr.position.y < -20.0f)
         {
             plyerAnim.SetBool(hashFall, false);
-            playerTr.position = new Vector3(0, 0, 0);
         }
     }
 

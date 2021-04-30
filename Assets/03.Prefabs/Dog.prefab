@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 5800088966088299946}
   - component: {fileID: 5800088966088299957}
   - component: {fileID: 5800088966088299947}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Dog
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92,7 +92,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5800088966160839224}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 48d6f95998fc29142a5f2cc78d0a050c, type: 3}
   m_Name: 
@@ -100,6 +100,8 @@ MonoBehaviour:
   moveSpeed: 10
   rotateSpeed: 30
   jumpPower: 6
+  isGameEnd: 0
+  isWin: 0
 --- !u!1 &5800088966160839488
 GameObject:
   m_ObjectHideFlags: 0
