@@ -49,7 +49,14 @@ public class PhotonManager : MonoBehaviourPunCallbacks
                 if (roomDict.ContainsKey(room.Name) == false)
                 {
                     GameObject _room = Instantiate(roomPrefabs, scrollContents);
-                    _room.GetComponent<RoomData>().Ro
+                    _room.GetComponent<RoomData>().RommInfo = room;
+                    roomDict.Add(room.Name, _room);
+                }
+                //아니면 룸 정보를 갱신
+                else
+                {
+                    roomDict.TryGetValue(room.Name, out tempRoom);
+                    tempRoom.GetComponent<RoomData>().RommInfo = room;
                 }
             }
         }
@@ -77,6 +84,5 @@ public class PhotonManager : MonoBehaviourPunCallbacks
 
         PhotonNetwork.CreateRoom(roomName, ro);
     }
-
     #endregion
 }
