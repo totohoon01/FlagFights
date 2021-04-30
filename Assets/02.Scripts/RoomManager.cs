@@ -14,6 +14,7 @@ public class RoomManager : MonoBehaviourPunCallbacks
     //들어와있는 유저 표시 유저 목록 받아서 유저 이름으로 전환 없으면 빈칸.
     //START버튼 누르면 유저에게 각각 아바타 할당, MAP씬, INFO씬 로딩
 
+    public TMP_Text masterIDText;
     public TMP_Text userIDText;
     public TMP_Text[] playerSeat = null;
     private int playerCount = 0;
@@ -24,6 +25,7 @@ public class RoomManager : MonoBehaviourPunCallbacks
         {
             PhotonNetwork.NickName = $"USER_{Random.Range(0, 100)}";
         }
+        masterIDText.text = PhotonNetwork.MasterClient.NickName;
         userIDText.text = PhotonNetwork.NickName;
     }
     #region PHOTON_CALLBACKS
