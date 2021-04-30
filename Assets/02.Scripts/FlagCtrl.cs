@@ -5,12 +5,16 @@ using TMPro;
 
 public class FlagCtrl : MonoBehaviour
 {
+
     //중립 깃발 획득로직, 0.2초로 딜레이줌
     void OnTriggerEnter(Collider coll)
     {
         if (coll.CompareTag("Player"))
         {
             StartCoroutine(TakeFlag(coll));
+
+            //현재 깃발가진사람
+            GameManager.flagOwner = coll.transform.name;
         }
     }
     IEnumerator TakeFlag(Collider coll)
