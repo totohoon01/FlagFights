@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 using TMPro;
 
@@ -28,7 +29,6 @@ public class GameManager : MonoBehaviour
     }
     void Update()
     {
-        SetOwnerInfo();
     }
     void SetOwnerInfo()
     {
@@ -39,9 +39,16 @@ public class GameManager : MonoBehaviour
         while (timeLimit > 0)
         {
             yield return new WaitForSeconds(1.0f);
+            SetOwnerInfo();
             timeLimit -= 1;
             timeInfo.text = $"Time : {timeLimit.ToString():000}";
         }
         isGameEnd = true;
+        flagOwnerInfo.text = $"<color=#FF0000>\"{flagOwner}\"</color> Wins this Game!!!";
+        Invoke("ReturnToLobby", 5.0f);
+    }
+    void ReturnToLobby()
+    {
+        SceneManager.LoadScene("LobbyScene");
     }
 }
