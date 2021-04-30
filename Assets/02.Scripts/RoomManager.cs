@@ -65,5 +65,11 @@ public class RoomManager : MonoBehaviourPunCallbacks
         PhotonNetwork.LeaveRoom();
         // PhotonNetwork.Disconnect();
     }
+
+    public void OnStartButtonClick()
+    {
+        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("GameInfoScene", LoadSceneMode.Additive);
+    }
     #endregion
 }
