@@ -18,6 +18,8 @@ public class RoomManager : MonoBehaviourPunCallbacks
     public TMP_Text userIDText;
     public TMP_Text[] playerSeat = null;
 
+    //랜덤할당쓰
+    private string[] modelsList = new string[] { "cat", "dog", "rat", "turtle" };
 
     void Awake()
     {
@@ -63,16 +65,13 @@ public class RoomManager : MonoBehaviourPunCallbacks
     public void OnExitButtonClick()
     {
         PhotonNetwork.LeaveRoom();
-        // PhotonNetwork.Disconnect();
     }
 
     public void OnStartButtonClick()
     {
-
-        PhotonNetwork.Instantiate();<< ----여기
-
         SceneManager.LoadScene("SampleScene");
         SceneManager.LoadScene("GameInfoScene", LoadSceneMode.Additive);
+
     }
     #endregion
 }

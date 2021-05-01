@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using TMPro;
+using Photon.Pun;
 
 //게임 전체 관리하는 스크립트//
 //싱글턴으로 사용//
@@ -15,8 +16,7 @@ public class GameManager : MonoBehaviour
     public static string flagOwner = "Nobody";
     public static bool isGameEnd = false;
 
-    //랜덤할당쓰
-    public static string[] models = new string[] { "cat", "dog", "rat", "turtle" };
+
 
 
     [Header("UI TEXTs")]
@@ -29,11 +29,13 @@ public class GameManager : MonoBehaviour
         {
             instance = this;
         }
+        StartGame();
         StartCoroutine(SetTimeInfo());
+        Vector3 pos = new Vector3(Random.Range(-100.0f, 100.0f), 5.0f, Random.Range(-100.0f, 100.0f));
+        PhotonNetwork.Instantiate("Cat", pos, Quaternion.identity, 0);
+        print(1);
     }
-    void Update()
-    {
-    }
+
     void SetOwnerInfo()
     {
         flagOwnerInfo.text = $"<color=#FF0000>\"{flagOwner}\"</color> has FLAG NOW!!";
@@ -51,8 +53,14 @@ public class GameManager : MonoBehaviour
         flagOwnerInfo.text = $"<color=#FF0000>\"{flagOwner}\"</color> Wins this Game!!!";
         Invoke("ReturnToLobby", 5.0f);
     }
+    void StartGame()
+    {
+        timeLimit = 300;
+        flagOwner = "Nobody";
+        isGameEnd = false;
+    }
     void ReturnToLobby()
     {
-        SceneManager.LoadScene("LobbyScene");
+        SceneManager.LoadScene("RoomScene");
     }
 }
