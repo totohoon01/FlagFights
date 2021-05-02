@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.Utility;
+using Photon.Pun;
+using Photon.Realtime;
 
 public class PlayerCtrl : MonoBehaviour
 {
@@ -19,18 +22,34 @@ public class PlayerCtrl : MonoBehaviour
     private readonly int hashWin = Animator.StringToHash("triWin");
     private readonly int hashLose = Animator.StringToHash("triLose");
 
+    //포톤
+    private PhotonView pv;
+
     void Start()
     {
         playerTr = GetComponent<Transform>();
         plyerAnim = GetComponent<Animator>();
         playerRb = GetComponent<Rigidbody>();
+        pv = GetComponent<PhotonView>();
+
+        if (pv.IsMine)
+        {
+            Camera.main.GetComponent<SmoothFollow>().target = playerTr.transform;
+        }
+        else
+        {
+            GetComponent<Rigidbody>().isKinematic = true;
+        }
     }
 
     void Update()
     {
-        Move();
-        Jump();
-        Fall();
+        if (pv.IsMine)
+        {
+            Move();
+            Jump();
+            Fall();
+        }
 
         //temp for anim check
         if (GameManager.isGameEnd)

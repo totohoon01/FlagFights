@@ -16,12 +16,10 @@ public class GameManager : MonoBehaviour
     public static string flagOwner = "Nobody";
     public static bool isGameEnd = false;
 
-
-
-
     [Header("UI TEXTs")]
     public TMP_Text flagOwnerInfo;
     public TMP_Text timeInfo;
+
 
     void Awake()
     {
@@ -31,9 +29,6 @@ public class GameManager : MonoBehaviour
         }
         StartGame();
         StartCoroutine(SetTimeInfo());
-        Vector3 pos = new Vector3(Random.Range(-100.0f, 100.0f), 5.0f, Random.Range(-100.0f, 100.0f));
-        PhotonNetwork.Instantiate("Cat", pos, Quaternion.identity, 0);
-        print(1);
     }
 
     void SetOwnerInfo()
@@ -55,9 +50,11 @@ public class GameManager : MonoBehaviour
     }
     void StartGame()
     {
-        timeLimit = 300;
+        timeLimit = 10;
         flagOwner = "Nobody";
         isGameEnd = false;
+        Vector3 pos = new Vector3(Random.Range(-10.0f, 10.0f), 5.0f, Random.Range(-10.0f, 10.0f));
+        PhotonNetwork.Instantiate("Cat", pos, Quaternion.identity, 0);
     }
     void ReturnToLobby()
     {

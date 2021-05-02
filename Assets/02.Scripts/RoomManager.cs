@@ -21,6 +21,7 @@ public class RoomManager : MonoBehaviourPunCallbacks
     //랜덤할당쓰
     private string[] modelsList = new string[] { "cat", "dog", "rat", "turtle" };
 
+
     void Awake()
     {
         if (string.IsNullOrEmpty(PhotonNetwork.NickName))
@@ -71,7 +72,6 @@ public class RoomManager : MonoBehaviourPunCallbacks
     {
         SceneManager.LoadScene("SampleScene");
         SceneManager.LoadScene("GameInfoScene", LoadSceneMode.Additive);
-
     }
     #endregion
 }
