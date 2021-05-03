@@ -19,7 +19,7 @@ public class FlagCtrl : MonoBehaviour
     }
     IEnumerator TakeFlag(Collider coll)
     {
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.5f);
         transform.SetParent(coll.transform);
         transform.position = transform.parent.position;
         transform.rotation = transform.parent.rotation;

@@ -12,11 +12,12 @@ public class RoomManager : MonoBehaviourPunCallbacks
     public TMP_Text masterIDText;
     public TMP_Text userIDText;
     public TMP_Text[] playerSeat = null;
-
     private string[] maps = new string[] { "Map_Autumn", "Map_Summer", "Map_Winter", "Map_SampleScene" };
+    private static int mapNumber;
 
     void Awake()
     {
+        mapNumber = Random.Range(0, 4);
         if (string.IsNullOrEmpty(PhotonNetwork.NickName))
         {
             PhotonNetwork.NickName = $"USER_{Random.Range(0, 100)}";
@@ -60,8 +61,7 @@ public class RoomManager : MonoBehaviourPunCallbacks
     public void LoadGameScene()
     {
         PhotonNetwork.IsMessageQueueRunning = false;
-        int randomMap = Random.Range(0, 4);
-        SceneManager.LoadScene(maps[randomMap]);
+        SceneManager.LoadScene(maps[mapNumber]);
         SceneManager.LoadScene("GameInfoScene", LoadSceneMode.Additive);
     }
     #endregion
