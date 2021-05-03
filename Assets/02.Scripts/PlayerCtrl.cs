@@ -13,14 +13,11 @@ public class PlayerCtrl : MonoBehaviour
     public float moveSpeed = 50.0f;
     public float rotateSpeed = 20.0f;
     public float jumpPower = 5.0f;
-    public bool isWin = false;
 
     //Get Hash
     private readonly int hashRun = Animator.StringToHash("isRun");
     private readonly int hashJump = Animator.StringToHash("triJump");
     private readonly int hashFall = Animator.StringToHash("isFall");
-    private readonly int hashWin = Animator.StringToHash("triWin");
-    private readonly int hashLose = Animator.StringToHash("triLose");
 
     //포톤
     private PhotonView pv;
@@ -49,13 +46,6 @@ public class PlayerCtrl : MonoBehaviour
             Move();
             Jump();
             Fall();
-        }
-
-        //temp for anim check
-        if (GameManager.isGameEnd)
-        {
-            GameEndAnim();
-            GameManager.isGameEnd = false;
         }
     }
 
@@ -94,18 +84,6 @@ public class PlayerCtrl : MonoBehaviour
         if (playerTr.position.y < -20.0f)
         {
             plyerAnim.SetBool(hashFall, false);
-        }
-    }
-
-    void GameEndAnim()
-    {
-        if (isWin)
-        {
-            plyerAnim.SetTrigger(hashWin);
-        }
-        else
-        {
-            plyerAnim.SetTrigger(hashLose);
         }
     }
     #endregion

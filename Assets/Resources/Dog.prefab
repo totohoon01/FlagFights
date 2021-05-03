@@ -103,7 +103,6 @@ MonoBehaviour:
   moveSpeed: 10
   rotateSpeed: 30
   jumpPower: 6
-  isWin: 0
 --- !u!114 &1724192208
 MonoBehaviour:
   m_ObjectHideFlags: 0
