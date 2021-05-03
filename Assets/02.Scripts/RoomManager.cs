@@ -13,11 +13,10 @@ public class RoomManager : MonoBehaviourPunCallbacks
     public TMP_Text userIDText;
     public TMP_Text[] playerSeat = null;
     private string[] maps = new string[] { "Map_Autumn", "Map_Summer", "Map_Winter", "Map_SampleScene" };
-    private static int mapNumber;
 
     void Awake()
     {
-        mapNumber = Random.Range(0, 4);
+
         if (string.IsNullOrEmpty(PhotonNetwork.NickName))
         {
             PhotonNetwork.NickName = $"USER_{Random.Range(0, 100)}";
@@ -61,7 +60,7 @@ public class RoomManager : MonoBehaviourPunCallbacks
     public void LoadGameScene()
     {
         PhotonNetwork.IsMessageQueueRunning = false;
-        SceneManager.LoadScene(maps[mapNumber]);
+        SceneManager.LoadScene("Map_Winter"); //여기서 오류가 생긴다.
         SceneManager.LoadScene("GameInfoScene", LoadSceneMode.Additive);
     }
     #endregion

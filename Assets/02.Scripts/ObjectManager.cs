@@ -18,7 +18,7 @@ public class ObjectManager : MonoBehaviourPunCallbacks
 
     void GeneratePlayer()
     {
-        Vector3 pos = new Vector3(Random.Range(-10.0f, 10.0f), 5.0f, Random.Range(-10.0f, 10.0f));
+        Vector3 pos = new Vector3(Random.Range(-30.0f, 30.0f), 5.0f, Random.Range(-30.0f, 30.0f));
         int idx = Random.Range(0, 4);
         PhotonNetwork.Instantiate(modelList[idx], pos, Quaternion.identity, 0);
     }

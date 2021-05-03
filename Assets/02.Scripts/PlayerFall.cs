@@ -15,7 +15,7 @@ public class PlayerFall : MonoBehaviour
             {
                 Transform flag = coll.transform.Find("Flag");
                 flag.SetParent(null);
-                flag.Translate(new Vector3(Random.Range(-5.0f, 5.0f), 0, Random.Range(-5.0f, 5.0f)), Space.World);
+                flag.Translate(new Vector3(Random.Range(-50.0f, 50.0f), 0, Random.Range(-50.0f, 50.0f)), Space.World);
                 foreach (var mesh in flag.GetComponentsInChildren<MeshRenderer>())
                 {
                     mesh.enabled = true;

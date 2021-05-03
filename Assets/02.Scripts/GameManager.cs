@@ -13,7 +13,7 @@ using UnityStandardAssets.Utility;
 public class GameManager : MonoBehaviour
 {
     private static GameManager instance = null;
-    private int timeLimit = 100;
+    private static int timeLimit = 50;
     public static string flagOwner = "Nobody";
     public static bool isGameEnd = false;
 
