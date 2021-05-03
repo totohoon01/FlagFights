@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5800088966088299947}
   - component: {fileID: 1724192208}
   - component: {fileID: 1724192209}
+  - component: {fileID: -1975701437841286998}
   m_Layer: 3
   m_Name: Dog
   m_TagString: Player
@@ -94,7 +95,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5800088966160839224}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 48d6f95998fc29142a5f2cc78d0a050c, type: 3}
   m_Name: 
@@ -123,6 +124,7 @@ MonoBehaviour:
   observableSearch: 2
   ObservedComponents:
   - {fileID: 1724192209}
+  - {fileID: -1975701437841286998}
   sceneViewId: 2
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -142,6 +144,39 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 1
+--- !u!114 &-1975701437841286998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5800088966160839224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowLayerWeightsInspector: 1
+  ShowParameterInspector: 1
+  m_SynchronizeParameters:
+  - Type: 9
+    SynchronizeType: 0
+    Name: triWin
+  - Type: 9
+    SynchronizeType: 0
+    Name: triLose
+  - Type: 4
+    SynchronizeType: 0
+    Name: isRun
+  - Type: 9
+    SynchronizeType: 0
+    Name: triJump
+  - Type: 4
+    SynchronizeType: 0
+    Name: isFall
+  m_SynchronizeLayers:
+  - SynchronizeType: 0
+    LayerIndex: 0
 --- !u!1 &5800088966160839488
 GameObject:
   m_ObjectHideFlags: 0

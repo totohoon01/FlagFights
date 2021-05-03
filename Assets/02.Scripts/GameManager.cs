@@ -4,7 +4,6 @@ using UnityEngine.SceneManagement;
 using UnityEngine;
 using TMPro;
 using Photon.Pun;
-
 //게임 전체 관리하는 스크립트//
 //싱글턴으로 사용//
 
@@ -16,10 +15,10 @@ public class GameManager : MonoBehaviour
     public static string flagOwner = "Nobody";
     public static bool isGameEnd = false;
 
+
     [Header("UI TEXTs")]
     public TMP_Text flagOwnerInfo;
     public TMP_Text timeInfo;
-
 
     void Awake()
     {
@@ -53,11 +52,10 @@ public class GameManager : MonoBehaviour
         timeLimit = 10;
         flagOwner = "Nobody";
         isGameEnd = false;
-        Vector3 pos = new Vector3(Random.Range(-10.0f, 10.0f), 5.0f, Random.Range(-10.0f, 10.0f));
-        PhotonNetwork.Instantiate("Cat", pos, Quaternion.identity, 0);
+
     }
     void ReturnToLobby()
     {
-        SceneManager.LoadScene("RoomScene");
+        PhotonNetwork.LoadLevel("RoomScene");
     }
 }

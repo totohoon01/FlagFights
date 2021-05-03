@@ -7,6 +7,8 @@ using TMPro;
 
 public class RoomData : MonoBehaviour
 {
+    private PhotonManager photonManager;
+
     private TMP_Text roomInfoText;
     private RoomInfo _roomInfo;
     public RoomInfo RommInfo
@@ -28,6 +30,7 @@ public class RoomData : MonoBehaviour
     void Awake()
     {
         roomInfoText = GetComponentInChildren<TMP_Text>();
+        photonManager = GameObject.Find("PhotonManager").GetComponent<PhotonManager>();
     }
     void OnEnterRoom(string roomName)
     {
@@ -35,6 +38,9 @@ public class RoomData : MonoBehaviour
         ro.IsOpen = true;
         ro.IsVisible = true;
         ro.MaxPlayers = 4;
+
+        PhotonNetwork.NickName = photonManager.userId.text;
+
         PhotonNetwork.JoinOrCreateRoom(roomName, ro, TypedLobby.Default);
     }
 }
