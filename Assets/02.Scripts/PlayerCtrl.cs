@@ -78,10 +78,9 @@ public class PlayerCtrl : MonoBehaviour
     void Fall()
     {
 
-        if (transform.position.y < -2.0f)
+        if (transform.position.y < -5.0f)
             plyerAnim.SetBool(hashFall, true);
-
-        if (playerTr.position.y < -20.0f)
+        else
         {
             plyerAnim.SetBool(hashFall, false);
         }

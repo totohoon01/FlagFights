@@ -13,7 +13,7 @@ using UnityStandardAssets.Utility;
 public class GameManager : MonoBehaviour
 {
     private static GameManager instance = null;
-    private int timeLimit = 10;
+    private int timeLimit = 100;
     public static string flagOwner = "Nobody";
     public static bool isGameEnd = false;
 
@@ -56,7 +56,7 @@ public class GameManager : MonoBehaviour
         //승리한 플레이어 포커싱
         Camera.main.GetComponent<SmoothFollow>().target = GameObject.FindGameObjectWithTag("FLAG").GetComponentInParent<Transform>();
         Camera.main.GetComponent<SmoothFollow>().distance = 5.0f;
-        GameObject.FindGameObjectWithTag("FLAG").GetComponentInParent<Animator>().SetTrigger("triWin");
+        GameObject.FindGameObjectWithTag("FLAG")?.GetComponentInParent<Animator>().SetTrigger("triWin");
     }
     void ReturnToLobby()
     {

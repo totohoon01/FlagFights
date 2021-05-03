@@ -12,9 +12,18 @@ EditorBuildSettings:
     path: Assets/01.Scenes/RoomScene.unity
     guid: d15d746981029e6489c75d457e20b818
   - enabled: 1
-    path: Assets/01.Scenes/SampleScene.unity
+    path: Assets/01.Scenes/Map_SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/01.Scenes/GameInfoScene.unity
     guid: 89a2fec824a89f64f996e9f1947d9634
+  - enabled: 1
+    path: Assets/01.Scenes/Map_Winter.unity
+    guid: e3b8ae5b2be67dd4ebfa20a3265919d1
+  - enabled: 1
+    path: Assets/01.Scenes/Map_Autumn.unity
+    guid: 4404a43023f5283419782db41f4edceb
+  - enabled: 1
+    path: Assets/01.Scenes/Map_Summer.unity
+    guid: 27cfd1a27c64cc34b94a978b8881c7aa
   m_configObjects: {}

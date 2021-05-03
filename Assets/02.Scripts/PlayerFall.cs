@@ -20,7 +20,7 @@ public class PlayerFall : MonoBehaviour
                 {
                     mesh.enabled = true;
                 }
-                flag.GetComponentInChildren<TMP_Text>().enabled = false;
+                //flag.GetComponentInChildren<TMP_Text>().enabled = false;
                 GameManager.flagOwner = "Nobody";
             }
         }

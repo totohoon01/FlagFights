@@ -13,6 +13,8 @@ public class RoomManager : MonoBehaviourPunCallbacks
     public TMP_Text userIDText;
     public TMP_Text[] playerSeat = null;
 
+    private string[] maps = new string[] { "Map_Autumn", "Map_Summer", "Map_Winter", "Map_SampleScene" };
+
     void Awake()
     {
         if (string.IsNullOrEmpty(PhotonNetwork.NickName))
@@ -58,7 +60,8 @@ public class RoomManager : MonoBehaviourPunCallbacks
     public void LoadGameScene()
     {
         PhotonNetwork.IsMessageQueueRunning = false;
-        SceneManager.LoadScene("SampleScene");
+        int randomMap = Random.Range(0, 4);
+        SceneManager.LoadScene(maps[randomMap]);
         SceneManager.LoadScene("GameInfoScene", LoadSceneMode.Additive);
     }
     #endregion
