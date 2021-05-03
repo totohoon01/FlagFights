@@ -3,18 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 
+/*
+    GameInfoScene에 포함
+    씬이 로딩될때 생성됨.
+*/
+
 public class ObjectManager : MonoBehaviourPunCallbacks
 {
-
-    private string[] modelsList = new string[] { "cat", "dog", "rat", "turtle" };
+    private string[] modelList = new string[] { "cat", "dog", "rat", "turtle" };
     void Start()
     {
         GeneratePlayer();
     }
+
     void GeneratePlayer()
     {
         Vector3 pos = new Vector3(Random.Range(-10.0f, 10.0f), 5.0f, Random.Range(-10.0f, 10.0f));
-        int model = Random.Range(0, 4);
-        PhotonNetwork.Instantiate(modelsList[model], pos, Quaternion.identity, 0);
+        int idx = Random.Range(0, 4);
+        PhotonNetwork.Instantiate(modelList[idx], pos, Quaternion.identity, 0);
     }
 }

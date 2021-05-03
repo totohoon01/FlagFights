@@ -11,7 +11,7 @@ using Photon.Pun;
 public class GameManager : MonoBehaviour
 {
     private static GameManager instance = null;
-    private static int timeLimit = 10;
+    private static int timeLimit = 1;
     public static string flagOwner = "Nobody";
     public static bool isGameEnd = false;
 
@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
         {
             instance = this;
         }
+        PhotonNetwork.IsMessageQueueRunning = true;
         StartGame();
         StartCoroutine(SetTimeInfo());
     }
@@ -49,7 +50,7 @@ public class GameManager : MonoBehaviour
     }
     void StartGame()
     {
-        timeLimit = 10;
+        timeLimit = 1;
         flagOwner = "Nobody";
         isGameEnd = false;
 
